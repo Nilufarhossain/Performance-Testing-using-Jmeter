@@ -29,8 +29,9 @@ This test was conducted using Jmeter.Blazemeter was used for the recording purpo
  - 500 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 443 And Total Concurrent API requested: 20000.
 
  While executed 500 concurrent request, 7 request got internal server error and error rate is 0.04%. 
-
+ 
 Summary: Server can handle almost concurrent 18000 API call with almost zero (0) error rate.
+## Lessons Learned
 The Grant/Fellowship module was the first module I tested in my professional life. After successfully testing and deploying it, the module went live and was functioning perfectly. However, on the last day of the NST fellowship application, the server started to go down due to heavy user traffic. It was so slow that we were unable to work on it and the team lead had to request an extension of the deadline. This experience taught me the importance of load testing before deployment to prevent similar issues in the future.
 
 
